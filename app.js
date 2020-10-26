@@ -3,8 +3,6 @@ const bodyParser = require("body-parser");
 const ejs = require("ejs");
 const mongoose = require("mongoose");
 
-// mongodb+srv://admin-abhishek:abhi1234@cluster0.j4dq1.mongodb.net/todolistDB
-
 const app = express();
 
 app.use(bodyParser.urlencoded({ extended: true }));
